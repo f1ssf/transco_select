@@ -1,9 +1,20 @@
 This selector permited to drive a Transco Switch Relay.
-My Transco is fully electromecanical. The diving is realise par external connector.
+My Transco is fully electromecanical. The diving is realise par external connector.  
+
 Pin G is 0V, and others pins are route selector. (1 to 6)
 When you put +24V on pin A or B or C or D or E or F, the cylinder of relay turn 60° each step.
 Always in same direction.
-My selector use an Arduino 2560 and 8 relays boards, and Nextion display.
+
+My selector use:
+
+Arduino 2560
+
+8 relays boards
+
+Nextion display.
+
+Specials: memorized last relay at power off , Delay of relay activation can be ajusted (2 second actually)
+
 You can adapted the ino code and nextion tft for your convenance and your application.
 
 My Transco model:
